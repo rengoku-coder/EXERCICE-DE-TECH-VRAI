@@ -10,4 +10,14 @@ const MontantTTC = MontantTotal + MontantTVA;
 const Remise = 10000;
 const MontantFinal = MontantTTC + fraisDeLivraison - Remise;
 const PrixMoyenProduitTVA = MontantTTC / Quantité;
-
+console.log("===== RECU DE COMMANDE =====");
+console.log("Nom du client : " + nom);
+console.log("Nom du produit : " + NomduProduit);
+console.log("Prix unitaire : " + PrixUnitaire + " FCFA");
+console.log("Quantité : " + Quantité);
+console.log("Montant total : " + MontantTotal + " FCFA");
+console.log("Frais de livraison : " + fraisDeLivraison + " FCFA");
+console.log("Taux de TVA : " + TauxTVA + " %");
+console.log("Montant TTC : " + MontantTTC + " FCFA");
+console.log("Remise : " + Remise + " FCFA");
+console.log("TOTAL A PAYER : " + MontantFinal + " FCFA");
