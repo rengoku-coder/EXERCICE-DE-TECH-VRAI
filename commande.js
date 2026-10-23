@@ -21,3 +21,6 @@ console.log("Taux de TVA : " + TauxTVA + " %");
 console.log("Montant TTC : " + MontantTTC + " FCFA");
 console.log("Remise : " + Remise + " FCFA");
 console.log("TOTAL A PAYER : " + MontantFinal + " FCFA");
+console.log("type du nom du client :", typeof nom);
+console.log("type du prix unitaire :", typeof PrixUnitaire);
+console.log("type de la quantité :", typeof Quantité);
