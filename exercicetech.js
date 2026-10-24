@@ -12,6 +12,6 @@ console.log("Cahiers :", montantCahier);
 console.log("Stylos :", montantStylo);
 console.log("Total :", MontantTotalAchat)
 console.log("Budget :", budgetClient);
-if (budgetClient >= MontantTotalAchat){console.log("Budget suffissant");} else {console.log("Buget insuffisant")}
+if (budgetClient >= MontantTotalAchat){console.log("Budget insuffissant");} else {console.log("Buget insuffisant")}
 console.log("");
 for (let i = 0; i < 6; i++) {console.log("Achat numéro", i);}
